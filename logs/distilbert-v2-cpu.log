@@ -1,0 +1,161 @@
+[{"stream_name":"stdout","time":65.439687748,"data":"leak: exact=67 normalized=365\n"}
+,{"stream_name":"stderr","time":65.802767401,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":67.732496177,"data":"device: cpu\n"}
+,{"stream_name":"stderr","time":70.848179925,"data":"\rLoading weights:   0%|          | 0/100 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 100/100 [00:00\u003c00:00, 2222.15it/s]\n"}
+,{"stream_name":"stderr","time":70.883398366,"data":"[transformers] \u001b[1mDistilBertForSequenceClassification LOAD REPORT\u001b[0m from: distilbert-base-uncased\n"}
+,{"stream_name":"stderr","time":70.88343852,"data":"Key                     | Status     | \n"}
+,{"stream_name":"stderr","time":70.883450395,"data":"------------------------+------------+-\n"}
+,{"stream_name":"stderr","time":70.883453791,"data":"vocab_layer_norm.bias   | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":70.883456571,"data":"vocab_transform.weight  | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":70.883459378,"data":"vocab_transform.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":70.88346231,"data":"vocab_projector.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":70.883464926,"data":"vocab_layer_norm.weight | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":70.883467548,"data":"pre_classifier.bias     | MISSING    | \n"}
+,{"stream_name":"stderr","time":70.883470253,"data":"classifier.bias         | MISSING    | \n"}
+,{"stream_name":"stderr","time":70.88347286,"data":"classifier.weight       | MISSING    | \n"}
+,{"stream_name":"stderr","time":70.883475465,"data":"pre_classifier.weight   | MISSING    | \n"}
+,{"stream_name":"stderr","time":70.883478111,"data":"\n"}
+,{"stream_name":"stderr","time":70.883480792,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":70.883483475,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stderr","time":70.883486516,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":86.115673909,"data":"  fold 0 epoch 0 step 0/191 loss 0.7286\n"}
+,{"stream_name":"stdout","time":1111.153357399,"data":"  fold 0 epoch 0 step 100/191 loss 0.5164\n"}
+,{"stream_name":"stdout","time":2064.975558825,"data":"  fold 0 epoch 1 step 0/191 loss 0.2900\n"}
+,{"stream_name":"stdout","time":3082.423925427,"data":"  fold 0 epoch 1 step 100/191 loss 0.4573\n"}
+,{"stream_name":"stdout","time":4005.874585453,"data":"  fold 0 epoch 2 step 0/191 loss 0.2559\n"}
+,{"stream_name":"stdout","time":5021.669978161,"data":"  fold 0 epoch 2 step 100/191 loss 0.3743\n"}
+,{"stream_name":"stdout","time":6070.820064383,"data":"fold 0: OOF F1 = 0.79968\n"}
+,{"stream_name":"stderr","time":6071.245368799,"data":"\rLoading weights:   0%|          | 0/100 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 100/100 [00:00\u003c00:00, 1976.46it/s]\n"}
+,{"stream_name":"stderr","time":6071.257074271,"data":"[transformers] \u001b[1mDistilBertForSequenceClassification LOAD REPORT\u001b[0m from: distilbert-base-uncased\n"}
+,{"stream_name":"stderr","time":6071.257116655,"data":"Key                     | Status     | \n"}
+,{"stream_name":"stderr","time":6071.257123453,"data":"------------------------+------------+-\n"}
+,{"stream_name":"stderr","time":6071.257128919,"data":"vocab_layer_norm.bias   | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":6071.257134082,"data":"vocab_transform.weight  | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":6071.25715918,"data":"vocab_transform.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":6071.257163979,"data":"vocab_projector.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":6071.257168049,"data":"vocab_layer_norm.weight | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":6071.257172099,"data":"pre_classifier.bias     | MISSING    | \n"}
+,{"stream_name":"stderr","time":6071.257176192,"data":"classifier.bias         | MISSING    | \n"}
+,{"stream_name":"stderr","time":6071.257180262,"data":"classifier.weight       | MISSING    | \n"}
+,{"stream_name":"stderr","time":6071.257184231,"data":"pre_classifier.weight   | MISSING    | \n"}
+,{"stream_name":"stderr","time":6071.257188338,"data":"\n"}
+,{"stream_name":"stderr","time":6071.257192212,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":6071.257196233,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stderr","time":6071.257200774,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":6083.503362197,"data":"  fold 1 epoch 0 step 0/191 loss 0.7496\n"}
+,{"stream_name":"stdout","time":7141.370626116,"data":"  fold 1 epoch 0 step 100/191 loss 0.3816\n"}
+,{"stream_name":"stdout","time":8054.3859472,"data":"  fold 1 epoch 1 step 0/191 loss 0.3188\n"}
+,{"stream_name":"stdout","time":9067.533596684,"data":"  fold 1 epoch 1 step 100/191 loss 0.4755\n"}
+,{"stream_name":"stdout","time":9964.336890064,"data":"  fold 1 epoch 2 step 0/191 loss 0.2993\n"}
+,{"stream_name":"stdout","time":10960.370094781,"data":"  fold 1 epoch 2 step 100/191 loss 0.2573\n"}
+,{"stream_name":"stdout","time":11998.532508678,"data":"fold 1: OOF F1 = 0.79403\n"}
+,{"stream_name":"stderr","time":11998.939559039,"data":"\rLoading weights:   0%|          | 0/100 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 100/100 [00:00\u003c00:00, 2109.99it/s]\n"}
+,{"stream_name":"stderr","time":11998.947881553,"data":"[transformers] \u001b[1mDistilBertForSequenceClassification LOAD REPORT\u001b[0m from: distilbert-base-uncased\n"}
+,{"stream_name":"stderr","time":11998.947926409,"data":"Key                     | Status     | \n"}
+,{"stream_name":"stderr","time":11998.947951321,"data":"------------------------+------------+-\n"}
+,{"stream_name":"stderr","time":11998.947958575,"data":"vocab_layer_norm.bias   | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":11998.947964461,"data":"vocab_transform.weight  | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":11998.94797063,"data":"vocab_transform.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":11998.947975974,"data":"vocab_projector.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":11998.947981805,"data":"vocab_layer_norm.weight | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":11998.947987526,"data":"pre_classifier.bias     | MISSING    | \n"}
+,{"stream_name":"stderr","time":11998.947992561,"data":"classifier.bias         | MISSING    | \n"}
+,{"stream_name":"stderr","time":11998.947997485,"data":"classifier.weight       | MISSING    | \n"}
+,{"stream_name":"stderr","time":11998.948002352,"data":"pre_classifier.weight   | MISSING    | \n"}
+,{"stream_name":"stderr","time":11998.948013966,"data":"\n"}
+,{"stream_name":"stderr","time":11998.948023326,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":11998.948026848,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stderr","time":11998.948030863,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":12010.923593106,"data":"  fold 2 epoch 0 step 0/191 loss 0.6903\n"}
+,{"stream_name":"stdout","time":13006.305106277,"data":"  fold 2 epoch 0 step 100/191 loss 0.4824\n"}
+,{"stream_name":"stdout","time":13909.415873132,"data":"  fold 2 epoch 1 step 0/191 loss 0.3813\n"}
+,{"stream_name":"stdout","time":14904.194825939,"data":"  fold 2 epoch 1 step 100/191 loss 0.2567\n"}
+,{"stream_name":"stdout","time":15799.392676999,"data":"  fold 2 epoch 2 step 0/191 loss 0.2317\n"}
+,{"stream_name":"stdout","time":16790.003156485,"data":"  fold 2 epoch 2 step 100/191 loss 0.2097\n"}
+,{"stream_name":"stdout","time":17816.176843947,"data":"fold 2: OOF F1 = 0.82063\n"}
+,{"stream_name":"stderr","time":17816.565039693,"data":"\rLoading weights:   0%|          | 0/100 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 100/100 [00:00\u003c00:00, 2090.86it/s]\n"}
+,{"stream_name":"stderr","time":17816.573263797,"data":"[transformers] \u001b[1mDistilBertForSequenceClassification LOAD REPORT\u001b[0m from: distilbert-base-uncased\n"}
+,{"stream_name":"stderr","time":17816.573331612,"data":"Key                     | Status     | \n"}
+,{"stream_name":"stderr","time":17816.573338831,"data":"------------------------+------------+-\n"}
+,{"stream_name":"stderr","time":17816.573344257,"data":"vocab_layer_norm.bias   | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":17816.573349601,"data":"vocab_transform.weight  | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":17816.573354996,"data":"vocab_transform.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":17816.573360228,"data":"vocab_projector.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":17816.573365449,"data":"vocab_layer_norm.weight | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":17816.573370506,"data":"pre_classifier.bias     | MISSING    | \n"}
+,{"stream_name":"stderr","time":17816.573375715,"data":"classifier.bias         | MISSING    | \n"}
+,{"stream_name":"stderr","time":17816.573380807,"data":"classifier.weight       | MISSING    | \n"}
+,{"stream_name":"stderr","time":17816.573385968,"data":"pre_classifier.weight   | MISSING    | \n"}
+,{"stream_name":"stderr","time":17816.573391188,"data":"\n"}
+,{"stream_name":"stderr","time":17816.573396605,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":17816.573401855,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stderr","time":17816.573407727,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":17828.507335471,"data":"  fold 3 epoch 0 step 0/191 loss 0.7171\n"}
+,{"stream_name":"stdout","time":18822.128482887,"data":"  fold 3 epoch 0 step 100/191 loss 0.3902\n"}
+,{"stream_name":"stdout","time":19721.483563814,"data":"  fold 3 epoch 1 step 0/191 loss 0.2352\n"}
+,{"stream_name":"stdout","time":20715.936814769,"data":"  fold 3 epoch 1 step 100/191 loss 0.2510\n"}
+,{"stream_name":"stdout","time":21616.579439173,"data":"  fold 3 epoch 2 step 0/191 loss 0.4139\n"}
+,{"stream_name":"stdout","time":22610.801453968,"data":"  fold 3 epoch 2 step 100/191 loss 0.2911\n"}
+,{"stream_name":"stdout","time":23640.050713374,"data":"fold 3: OOF F1 = 0.80422\n"}
+,{"stream_name":"stderr","time":23640.445320297,"data":"\rLoading weights:   0%|          | 0/100 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 100/100 [00:00\u003c00:00, 2021.94it/s]\n"}
+,{"stream_name":"stderr","time":23640.453884345,"data":"[transformers] \u001b[1mDistilBertForSequenceClassification LOAD REPORT\u001b[0m from: distilbert-base-uncased\n"}
+,{"stream_name":"stderr","time":23640.453944317,"data":"Key                     | Status     | \n"}
+,{"stream_name":"stderr","time":23640.453949899,"data":"------------------------+------------+-\n"}
+,{"stream_name":"stderr","time":23640.453954174,"data":"vocab_layer_norm.bias   | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":23640.453957933,"data":"vocab_transform.weight  | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":23640.453961967,"data":"vocab_transform.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":23640.453966148,"data":"vocab_projector.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":23640.45397024,"data":"vocab_layer_norm.weight | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":23640.453974343,"data":"pre_classifier.bias     | MISSING    | \n"}
+,{"stream_name":"stderr","time":23640.453978412,"data":"classifier.bias         | MISSING    | \n"}
+,{"stream_name":"stderr","time":23640.453982339,"data":"classifier.weight       | MISSING    | \n"}
+,{"stream_name":"stderr","time":23640.453986325,"data":"pre_classifier.weight   | MISSING    | \n"}
+,{"stream_name":"stderr","time":23640.453990517,"data":"\n"}
+,{"stream_name":"stderr","time":23640.453994522,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":23640.453998547,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stderr","time":23640.454003451,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":23653.108355232,"data":"  fold 4 epoch 0 step 0/191 loss 0.6645\n"}
+,{"stream_name":"stdout","time":24646.691764635,"data":"  fold 4 epoch 0 step 100/191 loss 0.4575\n"}
+,{"stream_name":"stdout","time":25544.327180538,"data":"  fold 4 epoch 1 step 0/191 loss 0.3680\n"}
+,{"stream_name":"stdout","time":26532.015049053,"data":"  fold 4 epoch 1 step 100/191 loss 0.2837\n"}
+,{"stream_name":"stdout","time":27424.366119128,"data":"  fold 4 epoch 2 step 0/191 loss 0.2916\n"}
+,{"stream_name":"stdout","time":28415.136691939,"data":"  fold 4 epoch 2 step 100/191 loss 0.2706\n"}
+,{"stream_name":"stdout","time":29454.41433964,"data":"fold 4: OOF F1 = 0.80409\n"}
+,{"stream_name":"stdout","time":29454.472925864,"data":"OOF F1 mean = 0.80453 (+/- 0.00887)\n"}
+,{"stream_name":"stdout","time":29454.475935548,"data":"OOF F1 overall = 0.80451\n"}
+,{"stream_name":"stderr","time":29454.791230204,"data":"\rLoading weights:   0%|          | 0/100 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 100/100 [00:00\u003c00:00, 2008.31it/s]\n"}
+,{"stream_name":"stderr","time":29454.800419796,"data":"[transformers] \u001b[1mDistilBertForSequenceClassification LOAD REPORT\u001b[0m from: distilbert-base-uncased\n"}
+,{"stream_name":"stderr","time":29454.800457099,"data":"Key                     | Status     | \n"}
+,{"stream_name":"stderr","time":29454.800463479,"data":"------------------------+------------+-\n"}
+,{"stream_name":"stderr","time":29454.800468947,"data":"vocab_layer_norm.bias   | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":29454.800474144,"data":"vocab_transform.weight  | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":29454.800479353,"data":"vocab_transform.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":29454.800484656,"data":"vocab_projector.bias    | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":29454.800489751,"data":"vocab_layer_norm.weight | UNEXPECTED | \n"}
+,{"stream_name":"stderr","time":29454.800494943,"data":"pre_classifier.bias     | MISSING    | \n"}
+,{"stream_name":"stderr","time":29454.800518024,"data":"classifier.bias         | MISSING    | \n"}
+,{"stream_name":"stderr","time":29454.80052225,"data":"classifier.weight       | MISSING    | \n"}
+,{"stream_name":"stderr","time":29454.800526429,"data":"pre_classifier.weight   | MISSING    | \n"}
+,{"stream_name":"stderr","time":29454.800530482,"data":"\n"}
+,{"stream_name":"stderr","time":29454.800534344,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":29454.800538177,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stderr","time":29454.800543006,"data":"- MISSING:\tthose params were newly initialized because missing from the checkpoint. Consider training on your downstream task.\n"}
+,{"stream_name":"stdout","time":29466.735082762,"data":"  full epoch 0 step 0/238 loss 0.6668\n"}
+,{"stream_name":"stdout","time":30458.67091472,"data":"  full epoch 0 step 100/238 loss 0.4188\n"}
+,{"stream_name":"stdout","time":31460.339191529,"data":"  full epoch 0 step 200/238 loss 0.4716\n"}
+,{"stream_name":"stdout","time":31839.949684924,"data":"  full epoch 1 step 0/238 loss 0.3849\n"}
+,{"stream_name":"stdout","time":32850.691444655,"data":"  full epoch 1 step 100/238 loss 0.4315\n"}
+,{"stream_name":"stdout","time":33847.414192701,"data":"  full epoch 1 step 200/238 loss 0.6443\n"}
+,{"stream_name":"stdout","time":34223.212486529,"data":"  full epoch 2 step 0/238 loss 0.2760\n"}
+,{"stream_name":"stdout","time":35232.17314104,"data":"  full epoch 2 step 100/238 loss 0.2107\n"}
+,{"stream_name":"stdout","time":36258.644091094,"data":"  full epoch 2 step 200/238 loss 0.2768\n"}
+,{"stream_name":"stdout","time":36961.954067912,"data":"best thr 0.51 OOF F1 0.80503\n"}
+,{"stream_name":"stdout","time":36961.973946573,"data":"submission rows: 3263 pos rate: 0.3987\n"}
+,{"stream_name":"stdout","time":36961.974005596,"data":"done\n"}
+,{"stream_name":"stderr","time":36967.828752986,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":36967.828818775,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":36968.296468857,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":36968.296514062,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":36969.476844813,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":36971.165437347,"data":"[NbConvertApp] Writing 316043 bytes to __results__.html\n"}
+]

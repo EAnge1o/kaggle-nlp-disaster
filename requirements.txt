@@ -1,0 +1,12 @@
+# 本地特征工程 / 融合
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+scipy>=1.13
+
+# Transformer 训练（本地或 Kaggle Notebook）
+torch>=2.4
+transformers>=4.44
+
+# Kaggle CLI（kernels push / output / competitions submit）
+kaggle>=1.6

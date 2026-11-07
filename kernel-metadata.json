@@ -1,0 +1,13 @@
+{
+  "id": "flagg111/nlp-disaster-deberta",
+  "title": "nlp-disaster-deberta",
+  "code_file": "bert_training.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "competition_sources": ["nlp-getting-started"],
+  "dataset_sources": [],
+  "model_sources": []
+}

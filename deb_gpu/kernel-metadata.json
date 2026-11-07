@@ -1,0 +1,13 @@
+{
+  "id": "flagg111/nlp-disaster-deberta-gpu",
+  "title": "nlp-disaster-deberta-gpu",
+  "code_file": "deberta_train.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "competition_sources": ["nlp-getting-started"],
+  "dataset_sources": [],
+  "model_sources": []
+}

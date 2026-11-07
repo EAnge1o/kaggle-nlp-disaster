@@ -1,0 +1,15 @@
+# 比赛数据（按 Kaggle 规则不 redistribution）
+train.csv
+test.csv
+sample_submission.csv
+nlp-getting-started.zip
+
+# 派生产物
+*.npy
+submission_*.csv
+
+# 本地中间目录
+downloads_*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
