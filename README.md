@@ -1,4 +1,4 @@
-# Kaggle NLP Getting Started — 灾难推文分类方案存档
+# Kaggle Competition: Natural Language Processing with Disaster Tweets
 
 > Kaggle 入门赛 [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started)：
 > 根据推文判断是否在描述真实灾难（二分类，评价指标 F1）。
